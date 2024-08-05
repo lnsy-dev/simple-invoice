@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+:root {
+  --bg-color: #eee;
+  --fg-color: #2d2d2d;
+  --body-font: "IBM Plex Serif", serif;
+  --header-font: "IBM Plex Sans Condensed", sans-serif;
+  --header-font-size: 36pt;
+  --font-size: 12pt;
+  --neutral-color: grey;
+  --line-height: 1.8;
+  --column-width: calc(var(--font-size) * 60);
+  --column-vertical-padding: 1em;
+  --column-horizontal-padding: 5em;
+}

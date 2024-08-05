@@ -1,0 +1,112 @@
+@import "./styles/reset.css";
+@import "./styles/variables.css";
+@import "./styles/media-queries.css";
+@import "./styles/code.css";
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  font-family: var(--body-font);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  display: flex;
+  flex-direction: column;
+  width: 8.5in;
+  height: 11in;
+  overflow: hidden;
+
+}
+
+img {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 2em;
+  height: auto;
+}
+
+h1 {
+  font-size: var(--header-font-size);
+}
+
+h2 {
+  font-size: calc(var(--header-font-size) * 0.8);
+}
+
+h3 {
+  font-size: calc(var(--header-font-size) * 0.6);
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+h1,h2,h3,h4 {
+  font-family: var(--header-font);
+/*  text-align: center;*/
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+
+
+strong {
+  font-style: italic;
+}
+
+header {
+  max-width: var(--column-width);
+  margin: auto;
+  text-align: left;
+}
+
+article {
+  max-width: var(--column-width);
+  margin: auto;
+  text-align: justify;
+}
+
+
+#logo a{
+  text-decoration: none;
+  font-family: var(--header-font);
+}
+
+.splash-image {
+  width: 100%;
+  height: auto;
+}
+
+.total {
+  padding-bottom: 0.5em;
+  width: 100%;
+  text-align: left;
+}
+
+.total .currency {
+  padding-left: 1em;
+}
+
+header {
+  display: block;
+  height: 3in;
+}
+
+#from {
+  float: right;
+}
+
+#to {
+  float: left;
+}
+
+
+.tasks {
+  width: 100%;
+  height: 5in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}

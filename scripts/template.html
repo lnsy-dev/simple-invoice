@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yet Another Markdown Blog</title>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <script src="./index.js" type="module"></script>
+</head>
+<body>
+
+
+  <main>
+    <header>
+      <div id="date">
+         <em>{{date}}</em>
+      </div>
+      <h1>INVOICE #{{invoice-number}}</h1>
+      
+
+
+      <div id="from">
+        <h4>From</h4>
+        <div>{{name}}</div>
+        <div>{{address}}</div>
+        <div>{{email}}</div>
+        <div>{{phone}}</div>
+        <div>{{website}}</div>
+      </div>
+
+      <div id="to">
+        <h4>To</h4>
+        <div>{{client-name}}</div>
+        <div>{{client-address}}</div>
+      </div>
+
+    </header>
+
+    <article class="tasks">
+      <h3>Tasks Completed</h3>
+
+      <div>{{content}}</div>
+      <h4 class="total">Total: 
+      <span class="currency">$<currency>{{credit}}</currency></span></h4>
+
+    </article>
+
+    <article>
+      <h4>Payment Methods</h4>
+      <ul>
+        <li>Venmo: <em> {{venmo}} </em></li>
+        <li>Zelle: <em> {{zelle}} </em></li>
+        <li>Paypal: <em> {{paypal}} </em></li>
+      </ul>
+    </article>
+
+  </main>
+
+
+</body>
+</html>
